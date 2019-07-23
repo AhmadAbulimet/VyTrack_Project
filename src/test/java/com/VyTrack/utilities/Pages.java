@@ -1,6 +1,6 @@
-package com.vytrack.utilities;
+package com.VyTrack.utilities;
 
-import com.vytrack.pages.LoginPage;
+import com.VyTrack.pages.LoginPage;
 
 public class Pages {
 
