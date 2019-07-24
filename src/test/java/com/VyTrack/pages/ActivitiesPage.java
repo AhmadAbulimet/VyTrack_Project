@@ -87,6 +87,14 @@ public class ActivitiesPage {
     @FindBy(xpath = "/html/body/div[2]/div[2]/div[1]/div[2]/div[3]/form/div[2]/div[2]/div/div[1]/div[2]/div/fieldset/div[2]/div[2]/div[2]/div[7]/div[2]/div")
     public WebElement summaryy;
 
+    @FindBy(xpath = "//span[@class='validation-failed']")
+    public WebElement blankFieldMessage;
+
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div[1]/div[2]/div[3]/form/div[2]/div[2]/div/div[1]/div[2]/div/fieldset/div[2]/div[2]/div[2]/div[6]/div/div[2]/div[2]/label/input[2]")
+    public WebElement afterOccurances;
+
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div[1]/div[2]/div[3]/form/div[2]/div[2]/div/div[1]/div[2]/div/fieldset/div[2]/div[2]/div[2]/div[6]/div/div[2]/div[2]/span/span/span")
+    public WebElement afterOccuranceErrorMessage;
 
 
 

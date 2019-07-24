@@ -205,4 +205,60 @@ public class DailyRepeatTests extends TestBase {
     }
 
 
+    @Test
+    public void blankFields(){
+
+        pages.login().logIn(ConfigurationReader.getProperty("truckdriver"), ConfigurationReader.getProperty("password"));
+        BrowserUtils.wait(4);
+        actions = new Actions(driver);
+        actions.moveToElement(pages.activitiesPage().Activities).click().moveToElement(pages.activitiesPage().CalendarEvents).click().perform();
+        BrowserUtils.wait(3);
+        actions.moveToElement(pages.activitiesPage().createCalendarEvent).click().perform();
+        BrowserUtils.wait(2);
+
+        List<WebElement> checkbox = pages.activitiesPage().Checkbox;
+        for (int i = 0; i < checkbox.size(); i++) {
+
+            WebElement repeat = checkbox.get(i);
+
+            if (i == 1) {
+                repeat.click();
+                break;
+            }
+        }
+
+        BrowserUtils.wait(3);
+        pages.activitiesPage().dayValue.clear();
+        BrowserUtils.wait(1);
+        Assert.assertTrue(pages.activitiesPage().blankFieldMessage.isDisplayed());
+        actions.doubleClick(pages.activitiesPage().dayValue).sendKeys("1").build().perform();
+        Assert.assertFalse(pages.activitiesPage().blankFieldMessage.isDisplayed());
+
+
+        List<WebElement> repeatEvery = pages.activitiesPage().repeatEveryCheckBox;
+        for (int i = 0; i < repeatEvery.size(); i++) {
+
+            WebElement repeat = repeatEvery.get(i);
+
+            if (i == 3) {
+                repeat.click();
+                pages.activitiesPage().afterOccurances.sendKeys("1");
+                pages.activitiesPage().afterOccurances.clear();
+                BrowserUtils.wait(2);
+                Assert.assertTrue(pages.activitiesPage().afterOccuranceErrorMessage.isDisplayed());
+                BrowserUtils.wait(1);
+                pages.activitiesPage().afterOccurances.sendKeys("1");
+                Assert.assertFalse(pages.activitiesPage().afterOccuranceErrorMessage.isDisplayed());
+
+                break;
+
+            }
+
+
+        }
+
+
+
+    }
+
 }
