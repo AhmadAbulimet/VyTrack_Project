@@ -84,6 +84,9 @@ public class ActivitiesPage {
     @FindBy(xpath = "/html/body/div[2]/div[2]/div[1]/div[2]/div[3]/form/div[2]/div[2]/div/div[1]/div[2]/div/fieldset/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/div[1]/label/input[3]")
     public WebElement dayValue;
 
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div[1]/div[2]/div[3]/form/div[2]/div[2]/div/div[1]/div[2]/div/fieldset/div[2]/div[2]/div[2]/div[7]/div[2]/div")
+    public WebElement summaryy;
+
 
 
 

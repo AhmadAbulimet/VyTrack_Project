@@ -152,4 +152,57 @@ public class DailyRepeatTests extends TestBase {
     }
 
 
+
+    @Test
+    public void RepeatEveryDaysFunctionality(){
+
+        pages.login().logIn(ConfigurationReader.getProperty("truckdriver"), ConfigurationReader.getProperty("password"));
+        BrowserUtils.wait(4);
+        actions = new Actions(driver);
+        actions.moveToElement(pages.activitiesPage().Activities).click().moveToElement(pages.activitiesPage().CalendarEvents).click().perform();
+        BrowserUtils.wait(3);
+        actions.moveToElement(pages.activitiesPage().createCalendarEvent).click().perform();
+        BrowserUtils.wait(2);
+
+        List<WebElement> checkbox = pages.activitiesPage().Checkbox;
+        for (int i = 0; i < checkbox.size(); i++) {
+
+            WebElement repeat = checkbox.get(i);
+
+            if (i == 1) {
+                repeat.click();
+                break;
+            }
+        }
+
+        BrowserUtils.wait(3);
+        pages.activitiesPage().dayValue.clear();
+        Random random=new Random();
+        int dayNum=random.nextInt(100) + 1;
+        actions.doubleClick(pages.activitiesPage().dayValue).sendKeys(String.valueOf(dayNum)).build().perform();
+        actions.click(pages.activitiesPage().summaryy).build().perform();
+        BrowserUtils.wait(3);
+        String summaryMessage=pages.activitiesPage().summaryy.getText();
+        String expectedSummaryMessage="Daily every "+String.valueOf(dayNum)+" days";
+        Assert.assertEquals(summaryMessage,expectedSummaryMessage);
+
+        BrowserUtils.wait(2);
+        pages.activitiesPage().dayValue.clear();
+        int newDayNum=random.nextInt(100) + 1;
+        actions.doubleClick(pages.activitiesPage().dayValue).sendKeys(String.valueOf(newDayNum)).build().perform();
+        actions.click(pages.activitiesPage().summaryy).build().perform();
+        BrowserUtils.wait(3);
+        expectedSummaryMessage="Daily every "+String.valueOf(dayNum)+" days";
+        String newSummaryMessage=pages.activitiesPage().summaryy.getText();
+        String newExpectedSummaryMessage="Daily every "+String.valueOf(newDayNum)+" days";
+        Assert.assertEquals(newSummaryMessage,newExpectedSummaryMessage);
+        Assert.assertNotEquals(newSummaryMessage,expectedSummaryMessage);
+
+
+
+
+
+    }
+
+
 }
