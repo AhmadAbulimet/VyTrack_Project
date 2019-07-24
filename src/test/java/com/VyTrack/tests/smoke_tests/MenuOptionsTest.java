@@ -29,25 +29,25 @@ public class MenuOptionsTest extends TestBase {
 
         driver.navigate().back();
         BrowserUtils.wait(2);
-        actions.moveToElement(pages.login().Customers).click().moveToElement(pages.login().Accounts).click().perform();
+        actions.moveToElement(pages.customersPage().Customers).click().moveToElement(pages.customersPage().Accounts).click().perform();
         BrowserUtils.wait(2);
         Assert.assertEquals(driver.getTitle(), ApplicationConstants.ACCOUNTS_TITLE);
-        Assert.assertEquals(pages.login().AccountsHeader.getText(),ApplicationConstants.ACCOUNTS_HEADER);
+        Assert.assertEquals(pages.customersPage().AccountsHeader.getText(),ApplicationConstants.ACCOUNTS_HEADER);
 
         driver.navigate().back();
         BrowserUtils.wait(2);
-        actions.moveToElement( pages.login().Customers).click().moveToElement(pages.login().Contacts).click().perform();
+        actions.moveToElement( pages.customersPage().Customers).click().moveToElement(pages.customersPage().Contacts).click().perform();
         BrowserUtils.wait(2);
         Assert.assertEquals(driver.getTitle(),ApplicationConstants.CONTACTS_TITLE);
-        Assert.assertEquals(pages.login().ContactsHeader.getText(),ApplicationConstants.CONTACTS_HEADER);
+        Assert.assertEquals(pages.customersPage().ContactsHeader.getText(),ApplicationConstants.CONTACTS_HEADER);
 
 
         driver.navigate().back();
         BrowserUtils.wait(2);
-        actions.moveToElement(pages.login().Activities).click().moveToElement(pages.login().CalendarEvents).click().perform();
+        actions.moveToElement(pages.activitiesPage().Activities).click().moveToElement(pages.activitiesPage().CalendarEvents).click().perform();
         BrowserUtils.wait(2);
         Assert.assertEquals(driver.getTitle(),ApplicationConstants.CALENDAR_EVENTS_TITLE);
-        Assert.assertEquals(pages.login().CalendarEventsHeader.getText(),ApplicationConstants.CALENDAR_EVENTS_HEADER);
+        Assert.assertEquals(pages.activitiesPage().CalendarEventsHeader.getText(),ApplicationConstants.CALENDAR_EVENTS_HEADER);
 
 
 
@@ -69,14 +69,14 @@ public class MenuOptionsTest extends TestBase {
 
         driver.navigate().back();
         BrowserUtils.wait(2);
-        actions.moveToElement( pages.login().Customers).click().moveToElement(pages.login().Accounts).click().perform();
+        actions.moveToElement( pages.customersPage().Customers).click().moveToElement(pages.customersPage().Accounts).click().perform();
         BrowserUtils.wait(2);
         Assert.assertEquals(driver.getTitle(),"All - Accounts - Customers");
         Assert.assertEquals(pages.login().SubTitle.getText(),"All Accounts");
 
         driver.navigate().back();
         BrowserUtils.wait(2);
-        actions.moveToElement( pages.login().Customers).click().moveToElement(pages.login().Contacts).click().perform();
+        actions.moveToElement( pages.customersPage().Customers).click().moveToElement(pages.customersPage().Contacts).click().perform();
         BrowserUtils.wait(2);
         Assert.assertEquals(driver.getTitle(),"All - Contacts - Customers");
         Assert.assertEquals(pages.login().SubTitle.getText(),"All Contacts");
@@ -84,7 +84,7 @@ public class MenuOptionsTest extends TestBase {
 
         driver.navigate().back();
         BrowserUtils.wait(2);
-        actions.moveToElement( pages.login().Activities).click().moveToElement(pages.login().CalendarEvents).click().perform();
+        actions.moveToElement( pages.activitiesPage().Activities).click().moveToElement(pages.activitiesPage().CalendarEvents).click().perform();
         BrowserUtils.wait(2);
         Assert.assertEquals(driver.getTitle(),"All - Calendar Events - Activities");
         Assert.assertEquals(pages.login().SubTitle.getText(),"All Calendar Events");

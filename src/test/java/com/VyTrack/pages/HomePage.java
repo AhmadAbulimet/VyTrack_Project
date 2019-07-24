@@ -71,30 +71,10 @@ public class HomePage {
 
 
 
-    @FindBy(linkText = "Customers")
-    public WebElement Customers;
-
-    @FindBy(xpath = "//span[.='Accounts']")
-    public WebElement Accounts;
-
-    @FindBy(xpath = "//h1[.='Accounts']")
-    public WebElement AccountsHeader;
-
-    @FindBy(xpath = "//span[.='Contacts']")
-    public  WebElement Contacts;
-
-    @FindBy(xpath = "//h1[.='Contacts']")
-    public WebElement ContactsHeader;
 
 
-    @FindBy(linkText = "Activities")
-    public WebElement Activities;
 
-    @FindBy(xpath = "//span[.='Calendar Events']")
-    public WebElement CalendarEvents;
 
-    @FindBy(xpath = "//h1[.='Calendar Events']")
-    public WebElement CalendarEventsHeader;
 
 
 

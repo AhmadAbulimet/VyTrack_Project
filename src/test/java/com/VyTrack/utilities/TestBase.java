@@ -49,7 +49,7 @@ public abstract class TestBase {
         } else if (result.getStatus() == ITestResult.SKIP) {
             extentLogger.skip("Test Case Skipped: " + result.getName());
         }
-        Driver.getDriver().quit();
+        Driver.closeDriver();
     }
 
     @BeforeSuite(alwaysRun = true)
@@ -85,6 +85,7 @@ public abstract class TestBase {
     @AfterSuite(alwaysRun = true)
     public void tearDownTest() {
         report.flush();
+        Driver.getDriver().quit();
     }
 
 
