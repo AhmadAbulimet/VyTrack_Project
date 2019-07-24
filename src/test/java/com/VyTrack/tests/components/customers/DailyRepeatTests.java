@@ -3,6 +3,8 @@ package com.VyTrack.tests.components.customers;
 import com.VyTrack.utilities.BrowserUtils;
 import com.VyTrack.utilities.ConfigurationReader;
 import com.VyTrack.utilities.TestBase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -11,6 +13,7 @@ import org.testng.annotations.Test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class DailyRepeatTests extends TestBase {
 
@@ -89,6 +92,57 @@ public class DailyRepeatTests extends TestBase {
             String expectedSummaryEveryDayMessage="Daily, every weekday";
 
             Assert.assertEquals(pages.activitiesPage().SummaryWeekDay.getText(),expectedSummaryEveryDayMessage);
+
+
+
+
+
+
+    }
+
+    @Test
+    public void RepeatEveryDaysErrorMessages(){
+
+        pages.login().logIn(ConfigurationReader.getProperty("truckdriver"), ConfigurationReader.getProperty("password"));
+        BrowserUtils.wait(4);
+        actions = new Actions(driver);
+        actions.moveToElement(pages.activitiesPage().Activities).click().moveToElement(pages.activitiesPage().CalendarEvents).click().perform();
+        BrowserUtils.wait(3);
+        actions.moveToElement(pages.activitiesPage().createCalendarEvent).click().perform();
+        BrowserUtils.wait(2);
+
+        List<WebElement> checkbox = pages.activitiesPage().Checkbox;
+        for (int i = 0; i < checkbox.size(); i++) {
+
+            WebElement repeat = checkbox.get(i);
+
+            if (i == 1) {
+                repeat.click();
+                break;
+            }
+        }
+
+        BrowserUtils.wait(3);
+        pages.activitiesPage().dayValue.clear();
+        actions.doubleClick(pages.activitiesPage().dayValue).sendKeys("100").build().perform();
+        String expectedErrorMessagLarger="The value have not to be more than 99.";
+        Assert.assertEquals(pages.activitiesPage().errorMessageLarger.getText(),expectedErrorMessagLarger);
+        BrowserUtils.wait(1);
+
+        pages.activitiesPage().dayValue.clear();
+        actions.doubleClick(pages.activitiesPage().dayValue).sendKeys("0.1").build().perform();
+        BrowserUtils.wait(1);
+        String expectedErrorMessageSmaller="The value have not to be less than 1.";
+        Assert.assertEquals(pages.activitiesPage().errorMessageSmaller.getText(),expectedErrorMessageSmaller);
+
+
+        BrowserUtils.wait(1);
+        pages.activitiesPage().dayValue.clear();
+        actions.doubleClick(pages.activitiesPage().dayValue).sendKeys("1").build().perform();
+        BrowserUtils.wait(1);
+        Assert.assertTrue(pages.activitiesPage().SummaryMessage1.isDisplayed());
+
+
 
 
 

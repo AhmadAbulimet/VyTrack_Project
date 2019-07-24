@@ -4,7 +4,7 @@
     <list default="true" id="d49fe7ed-caf3-4520-a1ab-bb3b8c3f1dd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+            <state relative-caret-position="941">
+              <caret line="142" column="78" selection-start-line="142" selection-start-column="78" selection-end-line="142" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="1140">
               <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+            <state relative-caret-position="1185">
+              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +248,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DailyRepeatTests.RepeatEverySummary">
+  <component name="RunManager" selected="TestNG.DailyRepeatTests.RepeatEveryDaysErrorMessages">
     <configuration name="DailyRepeatTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
       <extension name="coverage">
@@ -283,6 +283,24 @@
       <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
       <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VyTrack_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
+      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
+      <option name="METHOD_NAME" value="RepeatEveryDaysErrorMessages" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -343,31 +361,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuOptionsTest.storeManagerMenuOption" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VyTrack_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.smoke_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.smoke_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.smoke_tests.MenuOptionsTest" />
-      <option name="METHOD_NAME" value="storeManagerMenuOption" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DailyRepeatTests.RepeatEveryDaysErrorMessages" />
         <item itemvalue="TestNG.DailyRepeatTests.RepeatEverySummary" />
         <item itemvalue="TestNG.DailyRepeatTests" />
         <item itemvalue="TestNG.DateAndTimeTests.EndDateAutoAdjust" />
         <item itemvalue="TestNG.LoginTest.PositiveLoginTest" />
-        <item itemvalue="TestNG.MenuOptionsTest.storeManagerMenuOption" />
       </list>
     </recent_temporary>
   </component>
@@ -385,42 +385,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 35m 37s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 12m 52s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests - 2019.07.24 at 14h 36m 08s.xml">
-      <configuration name="DailyRepeatTests" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 13m 27s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 37m 34s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 14m 01s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 45m 33s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 15m 02s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 45m 56s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 19m 30s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 47m 01s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 20m 29s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 47m 28s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 21m 53s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 51m 14s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 25m 17s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests - 2019.07.24 at 14h 52m 38s.xml">
-      <configuration name="DailyRepeatTests" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 25m 37s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 58m 57s.xml">
-      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEveryDaysErrorMessages - 2019.07.24 at 16h 27m 09s.xml">
+      <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.4241774" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.43633762" />
       <window_info id="Structure" order="1" sideWeight="0.5010352" side_tool="true" weight="0.41845495" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,6 +447,20 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java</url>
+          <line>103</line>
+          <properties class="com.VyTrack.tests.components.customers.DailyRepeatTests" method="RepeatEveryDaysErrorMessages">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/example.java" />
@@ -584,7 +598,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="1140">
           <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -594,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+        <state relative-caret-position="1185">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -604,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+        <state relative-caret-position="941">
+          <caret line="142" column="78" selection-start-line="142" selection-start-column="78" selection-end-line="142" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

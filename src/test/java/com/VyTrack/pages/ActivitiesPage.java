@@ -75,6 +75,15 @@ public class ActivitiesPage {
     @FindBy(xpath ="//span[.='Daily, every weekday']" )
     public WebElement SummaryWeekDay;
 
+    @FindBy(xpath = "//span[.='The value have not to be less than 1.']")
+    public WebElement errorMessageSmaller;
+
+    @FindBy(xpath = "//span[.='The value have not to be more than 99.']")
+    public WebElement errorMessageLarger;
+
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div[1]/div[2]/div[3]/form/div[2]/div[2]/div/div[1]/div[2]/div/fieldset/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/div[1]/label/input[3]")
+    public WebElement dayValue;
+
 
 
 
