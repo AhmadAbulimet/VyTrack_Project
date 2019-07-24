@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d49fe7ed-caf3-4520-a1ab-bb3b8c3f1dd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/smoke_tests/MenuOptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/smoke_tests/MenuOptionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/smoke_tests/MenuOptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/smoke_tests/MenuOptionsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Pages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,13 +17,40 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="VyTrack_Automation" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="195">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="403">
+              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +115,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/smoke_tests/MenuOptionsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java" />
       </list>
     </option>
   </component>
@@ -118,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +249,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +271,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DateAndTimeTests.EndDateAutoAdjust">
+  <component name="RunManager" selected="TestNG.DailyRepeatTests.RepeatEverySummary">
+    <configuration name="DailyRepeatTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VyTrack_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
+      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyRepeatTests.RepeatEverySummary" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VyTrack_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
+      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
+      <option name="METHOD_NAME" value="RepeatEverySummary" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DateAndTimeTests.EndDateAutoAdjust" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
       <extension name="coverage">
@@ -285,24 +343,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuOptionsTest.driverMenuOption" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VyTrack_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.smoke_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.smoke_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.smoke_tests.MenuOptionsTest" />
-      <option name="METHOD_NAME" value="driverMenuOption" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MenuOptionsTest.storeManagerMenuOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
       <extension name="coverage">
@@ -321,31 +361,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageAccessTest.driverVehicleContractsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VyTrack_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.components.login_navigation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.login_navigation" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.login_navigation.PageAccessTest" />
-      <option name="METHOD_NAME" value="driverVehicleContractsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DailyRepeatTests.RepeatEverySummary" />
+        <item itemvalue="TestNG.DailyRepeatTests" />
         <item itemvalue="TestNG.DateAndTimeTests.EndDateAutoAdjust" />
         <item itemvalue="TestNG.LoginTest.PositiveLoginTest" />
         <item itemvalue="TestNG.MenuOptionsTest.storeManagerMenuOption" />
-        <item itemvalue="TestNG.MenuOptionsTest.driverMenuOption" />
-        <item itemvalue="TestNG.PageAccessTest.driverVehicleContractsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -363,48 +385,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 10h 37m 04s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 35m 37s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 10h 37m 30s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests - 2019.07.24 at 14h 36m 08s.xml">
+      <configuration name="DailyRepeatTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 10h 42m 00s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 37m 34s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 10h 45m 37s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 45m 33s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 10h 47m 56s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 45m 56s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 10h 49m 03s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 47m 01s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 10h 57m 57s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 47m 28s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 11h 00m 20s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 51m 14s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 11h 01m 49s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests - 2019.07.24 at 14h 52m 38s.xml">
+      <configuration name="DailyRepeatTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DateAndTimeTests_EndDateAutoAdjust - 2019.07.24 at 11h 03m 04s.xml">
-      <configuration name="DateAndTimeTests.EndDateAutoAdjust" configurationId="TestNG" />
+    <history-entry file="DailyRepeatTests_RepeatEverySummary - 2019.07.24 at 14h 58m 57s.xml">
+      <configuration name="DailyRepeatTests.RepeatEverySummary" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40128756" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.4241774" />
+      <window_info id="Structure" order="1" sideWeight="0.5010352" side_tool="true" weight="0.41845495" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5010352" side_tool="true" weight="0.41845495" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
@@ -496,16 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -560,20 +572,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="195">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="403">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class ActivitiesPage {
 
     public ActivitiesPage(){
@@ -54,6 +56,24 @@ public class ActivitiesPage {
 
     @FindBy(xpath = "//input[@class='input-small timepicker-input end ui-timepicker-input']")
     public WebElement endDateHour;
+
+    @FindBy(xpath = "//input[@type='checkbox']")
+    public List<WebElement> Checkbox;
+
+    @FindBy(xpath = "//select[@class='recurrence-repeats__select']")
+    public WebElement Repeats;
+
+    @FindBy(xpath = "//input[@type='radio']")
+    public List<WebElement> repeatEveryCheckBox;
+
+    @FindBy(xpath = "//input[@type='text']")
+    public List<WebElement> repeatEveryDay;
+
+    @FindBy(xpath = "//span[.='Daily every 1 day']")
+    public WebElement SummaryMessage1;
+
+    @FindBy(xpath ="//span[.='Daily, every weekday']" )
+    public WebElement SummaryWeekDay;
 
 
 

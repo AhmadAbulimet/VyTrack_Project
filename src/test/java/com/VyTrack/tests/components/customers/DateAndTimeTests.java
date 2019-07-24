@@ -18,7 +18,7 @@ public class DateAndTimeTests extends TestBase {
        public void EndDateAutoAdjust(){
 
 
-           driver.manage().window().fullscreen();
+
            pages.login().logIn(ConfigurationReader.getProperty("truckdriver"),ConfigurationReader.getProperty("password"));
            BrowserUtils.wait(4);
            actions=new Actions(driver);
