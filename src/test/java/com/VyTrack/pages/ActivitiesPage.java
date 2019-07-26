@@ -96,6 +96,9 @@ public class ActivitiesPage {
     @FindBy(xpath = "/html/body/div[2]/div[2]/div[1]/div[2]/div[3]/form/div[2]/div[2]/div/div[1]/div[2]/div/fieldset/div[2]/div[2]/div[2]/div[6]/div/div[2]/div[2]/span/span/span")
     public WebElement afterOccuranceErrorMessage;
 
+    @FindBy(xpath = "//div[@class='controls']")
+    public List<WebElement> afterWarningMessage;
+
 
 
 }

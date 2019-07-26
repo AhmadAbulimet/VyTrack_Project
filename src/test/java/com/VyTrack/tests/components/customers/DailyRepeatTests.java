@@ -248,12 +248,127 @@ public class DailyRepeatTests extends TestBase {
                 Assert.assertTrue(pages.activitiesPage().afterOccuranceErrorMessage.isDisplayed());
                 BrowserUtils.wait(1);
                 pages.activitiesPage().afterOccurances.sendKeys("1");
-                Assert.assertFalse(pages.activitiesPage().afterOccuranceErrorMessage.isDisplayed());
+
 
                 break;
 
             }
 
+        }
+
+
+
+    }
+
+
+    @Test
+    public void EndsErrorMessages(){
+
+        pages.login().logIn(ConfigurationReader.getProperty("truckdriver"), ConfigurationReader.getProperty("password"));
+        BrowserUtils.wait(4);
+        actions = new Actions(driver);
+        actions.moveToElement(pages.activitiesPage().Activities).click().moveToElement(pages.activitiesPage().CalendarEvents).click().perform();
+        BrowserUtils.wait(3);
+        actions.moveToElement(pages.activitiesPage().createCalendarEvent).click().perform();
+        BrowserUtils.wait(2);
+
+        List<WebElement> checkbox = pages.activitiesPage().Checkbox;
+        for (int i = 0; i < checkbox.size(); i++) {
+
+            WebElement repeat = checkbox.get(i);
+
+            if (i == 1) {
+                repeat.click();
+                break;
+            }
+        }
+
+        BrowserUtils.wait(2);
+
+        List<WebElement> repeatEvery = pages.activitiesPage().repeatEveryCheckBox;
+        for (int i = 0; i < repeatEvery.size(); i++) {
+
+            WebElement repeat = repeatEvery.get(i);
+
+            if (i == 3) {
+                repeat.click();
+                pages.activitiesPage().afterOccurances.sendKeys("1");
+                pages.activitiesPage().afterOccurances.clear();
+                pages.activitiesPage().afterOccurances.sendKeys("0.1");
+                Assert.assertTrue(pages.activitiesPage().errorMessageSmaller.isDisplayed());
+                BrowserUtils.wait(2);
+                pages.activitiesPage().afterOccurances.clear();
+                pages.activitiesPage().afterOccurances.sendKeys("101");
+                Assert.assertTrue(pages.activitiesPage().errorMessageLarger.isDisplayed());
+
+                break;
+
+            }
+
+        }
+
+    }
+
+    @Test
+    public void EndsFunctionality(){
+
+        pages.login().logIn(ConfigurationReader.getProperty("truckdriver"), ConfigurationReader.getProperty("password"));
+        BrowserUtils.wait(4);
+        actions = new Actions(driver);
+        actions.moveToElement(pages.activitiesPage().Activities).click().moveToElement(pages.activitiesPage().CalendarEvents).click().perform();
+        BrowserUtils.wait(3);
+        actions.moveToElement(pages.activitiesPage().createCalendarEvent).click().perform();
+        BrowserUtils.wait(2);
+
+        List<WebElement> checkbox = pages.activitiesPage().Checkbox;
+        for (int i = 0; i < checkbox.size(); i++) {
+
+            WebElement repeat = checkbox.get(i);
+
+            if (i == 1) {
+                repeat.click();
+                break;
+            }
+        }
+
+        BrowserUtils.wait(2);
+
+        List<WebElement> afterOccuranceSummerayMessage=pages.activitiesPage().afterWarningMessage;
+        String AfterOccurancesSummaryMessage=afterOccuranceSummerayMessage.get(17).getText();
+
+        List<WebElement> repeatEvery = pages.activitiesPage().repeatEveryCheckBox;
+        for (int i = 0; i < repeatEvery.size(); i++) {
+
+            WebElement repeat = repeatEvery.get(i);
+
+            if (i == 3) {
+                repeat.click();
+
+                Random random=new Random();
+                int afterOccurancesNum=random.nextInt(100) + 1;
+                actions.doubleClick(pages.activitiesPage().afterOccurances).sendKeys(String.valueOf(afterOccurancesNum)).build().perform();
+                actions.click(pages.activitiesPage().summaryy).build().perform();
+                BrowserUtils.wait(3);
+                String summaryMessage=pages.activitiesPage().summaryy.getText();
+                String expectedSummaryMessage="Daily every 1 day, end after "+String.valueOf(afterOccurancesNum)+" occurrences";
+                Assert.assertEquals(summaryMessage,expectedSummaryMessage);
+
+                BrowserUtils.wait(2);
+                pages.activitiesPage().afterOccurances.clear();
+                int newAfterOccurancesNum=random.nextInt(100) + 1;
+                actions.doubleClick(pages.activitiesPage().afterOccurances).sendKeys(String.valueOf(newAfterOccurancesNum)).build().perform();
+                actions.click(pages.activitiesPage().summaryy).build().perform();
+                BrowserUtils.wait(3);
+                expectedSummaryMessage="Daily every 1 day, end after "+String.valueOf(afterOccurancesNum)+" occurrences";
+                String newSummaryMessage=pages.activitiesPage().summaryy.getText();
+                String newExpectedSummaryMessage="Daily every 1 day, end after "+String.valueOf(newAfterOccurancesNum)+" occurrences";
+                Assert.assertEquals(newSummaryMessage,newExpectedSummaryMessage);
+                Assert.assertNotEquals(newSummaryMessage,expectedSummaryMessage);
+
+
+                break;
+
+            }
 
         }
 
