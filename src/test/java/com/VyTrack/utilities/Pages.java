@@ -1,17 +1,21 @@
 package com.VyTrack.utilities;
 
-import com.VyTrack.pages.ActivitiesPage;
-import com.VyTrack.pages.CustomersPage;
-import com.VyTrack.pages.HomePage;
-import com.VyTrack.pages.LoginPage;
+import com.VyTrack.pages.*;
+import com.VyTrack.pages.activities.CalendarEventsPage;
 import cucumber.api.java.bs.A;
 
 public class Pages {
 
-    LoginPage loginPage=new LoginPage();
-    HomePage homePage=new HomePage();
-    CustomersPage customersPage=new CustomersPage();
-    ActivitiesPage activitiesPage=new ActivitiesPage();
+   private LoginPage loginPage=new LoginPage();
+   private HomePage homePage=new HomePage();
+   private CustomersPage customersPage=new CustomersPage();
+   private ActivitiesPage activitiesPage=new ActivitiesPage();
+   private DashboardPage dashboardPage=new DashboardPage();
+   private   CalendarEventsPage calendarEventsPage=new CalendarEventsPage();
+
+
+
+
 
     public LoginPage login(){
 
@@ -51,4 +55,25 @@ public class Pages {
 
         return activitiesPage;
     }
+
+    public DashboardPage dashboardPage(){
+
+        if(dashboardPage==null){
+            dashboardPage=new DashboardPage();
+        }
+
+        return dashboardPage;
+    }
+
+    public CalendarEventsPage calendarEventsPage(){
+
+        if(calendarEventsPage==null){
+            calendarEventsPage=new CalendarEventsPage();
+        }
+
+        return calendarEventsPage;
+    }
+
+
+
 }

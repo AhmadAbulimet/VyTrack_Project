@@ -3,11 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d49fe7ed-caf3-4520-a1ab-bb3b8c3f1dd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/VyTrack_Automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/TestBase.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,58 +25,6 @@
   <component name="FavoritesManager">
     <favorites_list name="VyTrack_Automation" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="363" column="132" selection-start-line="363" selection-start-column="132" selection-end-line="363" selection-end-column="132" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,47 +32,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>action</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/example.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Page.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/smoke_tests/MenuOptionsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/PageAccessTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/BrowserUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/ConfigurationReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Driver.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/ApplicationConstant.java" />
-        <option value="$PROJECT_DIR$/Configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/login_navigation/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/login_navigation/PageAccessTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/ApplicationConstants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/CustomersPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/smoke_tests/MenuOptionsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -128,128 +42,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="812" />
-  </component>
+  <component name="ProjectId" id="1P6orUfiIr6s2qOH682iIqqVdfz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="customers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="login_navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VyTrack_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VyTrack_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VyTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -271,91 +66,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DailyRepeatTests.EndsFunctionality">
-    <configuration name="DailyRepeatTests.EndsErrorMessages" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/ahmetjanyusup/VyTrack_Automation/runner_with_parameters.xml">
+    <configuration name="CalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
+          <option name="PATTERN" value="com.VyTrack.tests.components.activities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
-      <option name="METHOD_NAME" value="EndsErrorMessages" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.activities" />
+      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.activities.CalendarEventsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailyRepeatTests.EndsFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/ahmetjanyusup/VyTrack_Automation/multi_browser_parallel_testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
-      <option name="METHOD_NAME" value="EndsFunctionality" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/multi_browser_parallel_testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailyRepeatTests.RepeatEveryDaysErrorMessages" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/ahmetjanyusup/VyTrack_Automation/multi_browser_testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
-      <option name="METHOD_NAME" value="RepeatEveryDaysErrorMessages" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/multi_browser_testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailyRepeatTests.RepeatEveryDaysFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/ahmetjanyusup/VyTrack_Automation/runner_with_data_provider.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
-      <option name="METHOD_NAME" value="RepeatEveryDaysFunctionality" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/runner_with_data_provider.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailyRepeatTests.blankFields" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/ahmetjanyusup/VyTrack_Automation/runner_with_parameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrack_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.VyTrack.tests.components.customers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.VyTrack.tests.components.customers" />
-      <option name="MAIN_CLASS_NAME" value="com.VyTrack.tests.components.customers.DailyRepeatTests" />
-      <option name="METHOD_NAME" value="blankFields" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/runner_with_parameters.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -364,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DailyRepeatTests.EndsFunctionality" />
-        <item itemvalue="TestNG.DailyRepeatTests.EndsErrorMessages" />
-        <item itemvalue="TestNG.DailyRepeatTests.blankFields" />
-        <item itemvalue="TestNG.DailyRepeatTests.RepeatEveryDaysFunctionality" />
-        <item itemvalue="TestNG.DailyRepeatTests.RepeatEveryDaysErrorMessages" />
+        <item itemvalue="TestNG./Users/ahmetjanyusup/VyTrack_Automation/runner_with_parameters.xml" />
+        <item itemvalue="TestNG./Users/ahmetjanyusup/VyTrack_Automation/runner_with_data_provider.xml" />
+        <item itemvalue="TestNG./Users/ahmetjanyusup/VyTrack_Automation/multi_browser_testing.xml" />
+        <item itemvalue="TestNG./Users/ahmetjanyusup/VyTrack_Automation/multi_browser_parallel_testing.xml" />
+        <item itemvalue="TestNG.CalendarEventsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -385,69 +147,18 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 04m 56s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 05m 19s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 05m 52s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 06m 31s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 07m 05s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 09m 03s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 09m 31s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsErrorMessages - 2019.07.26 at 13h 10m 08s.xml">
-      <configuration name="DailyRepeatTests.EndsErrorMessages" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsFunctionality - 2019.07.26 at 13h 19m 31s.xml">
-      <configuration name="DailyRepeatTests.EndsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DailyRepeatTests_EndsFunctionality - 2019.07.26 at 13h 20m 41s.xml">
-      <configuration name="DailyRepeatTests.EndsFunctionality" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.48855507" />
-      <window_info id="Structure" order="1" sideWeight="0.5010352" side_tool="true" weight="0.41845495" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5010352" side_tool="true" weight="0.41845495" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32916668" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32916668" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,171 +173,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/example.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/login_navigation/PageAccessTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="47" column="54" selection-start-line="47" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/smoke_tests/MenuOptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/login_navigation/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/CustomersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DateAndTimeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/pages/ActivitiesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VyTrack/tests/components/customers/DailyRepeatTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="363" column="132" selection-start-line="363" selection-start-column="132" selection-end-line="363" selection-end-column="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

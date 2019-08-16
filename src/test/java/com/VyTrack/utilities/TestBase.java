@@ -3,14 +3,17 @@ package com.VyTrack.utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
@@ -22,24 +25,26 @@ public abstract class TestBase {
     protected static ExtentReports report;
     private static ExtentHtmlReporter htmlReporter;
     protected static ExtentTest extentLogger;
-    protected static WebDriverWait wait;
+    private static final Logger logger = LogManager.getLogger();
 
 
-    @Parameters("browser")
+
     @BeforeMethod(alwaysRun = true)
-    public void setupMethod(@Optional String browser) {
+    @Parameters("browser")
+    public void setup(@Optional String browser) {
         driver = Driver.getDriver(browser);
         pages = new Pages();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(ConfigurationReader.getProperty("url"));
-        driver.manage().window().fullscreen();
-
+        softAssert = new SoftAssert();
+        driver.manage().timeouts().implicitlyWait(Long.valueOf(ConfigurationReader.getProperty("implicitwait")), TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        String URL = ConfigurationReader.getProperty("url"+ConfigurationReader.getProperty("environment"));
+        driver.get(URL);
+        logger.info("URL: "+URL);
     }
 
     @AfterMethod(alwaysRun = true)
     public void tearDownMethod(ITestResult result) throws IOException {
-        // if any test fails, it can detect it,
-        // take a screen shot at the point and attach to report
+
         if (result.getStatus() == ITestResult.FAILURE) {
             String screenshotLocation = BrowserUtils.getScreenshot(result.getName());
             extentLogger.fail(result.getName());
@@ -52,41 +57,40 @@ public abstract class TestBase {
         Driver.closeDriver();
     }
 
+
+
     @BeforeSuite(alwaysRun = true)
-    public void setUpTest() {
+    @Parameters("test")
+    public void setUpTest(@Optional String test) {
+        // actual reporter
         report = new ExtentReports();
-        // this is our custom location of the report that will be generated
-        // report will be generated in the current project inside folder: test-output
-        // report file name: report.html
-        String filePath = System.getProperty("user.dir") + "/test-output/report.html";
-
-//        windows users pls correct ur path:
-//        String filePath = System.getProperty("user.dir") + "\\test-output\\report.html";
-
-        // initialize the htmlReporter with the path to the report
+        // System.getProperty("user.dir") ---> get the path to current project
+        // test-output --> folder in the current project, will be created by testng if
+        // it does not already exist
+        // report.html --> name of the report file
+        if (test == null) {
+            test = "reports";
+        }
+        String filePath = System.getProperty("user.dir") + "/test-output/" + test + "/" + LocalDate.now().format(DateTimeFormatter.ofPattern("MM_dd_yyyy")) + "/report.html";
         htmlReporter = new ExtentHtmlReporter(filePath);
-
-        // we attach the htmlreport to our report
+        logger.info("Report path: "+filePath);
         report.attachReporter(htmlReporter);
-
-        //TODO: HTML Report Informations,you can change it
         report.setSystemInfo("Environment", "Staging");
         report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
         report.setSystemInfo("OS", System.getProperty("os.name"));
-
         report.setSystemInfo("QA Engineer", "Ahmetjan Yusup");
+        htmlReporter.config().setDocumentTitle("Brite_ERP Application Reports");
+        htmlReporter.config().setReportName("Brite_ERP Application Automated Test Reports");
 
-        htmlReporter.config().setDocumentTitle("VyTrack Reports");
-        htmlReporter.config().setReportName("VyTrack Automated Test Reports");
-
-//        htmlReporter.config().setTheme(Theme.DARK);
-
+        if (System.getenv("runner") != null) {
+            extentLogger.info("Running: " + System.getenv("runner"));
+        }
     }
+
     @AfterSuite(alwaysRun = true)
     public void tearDownTest() {
+        logger.info(":: FLUSHING REPORT ::");
         report.flush();
-        Driver.getDriver().quit();
+        driver.quit();
     }
-
-
 }

@@ -36,8 +36,7 @@ public class LoginPage extends HomePage{
     public void logIn(String userName, String passWord){
         LoginPage loginPage=new LoginPage();
 
-        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-        Driver.getDriver().manage().window().fullscreen();
+
         loginPage.userName.sendKeys(userName);
         loginPage.passWord.sendKeys(passWord);
         loginPage.loginButton.click();

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke test" verbose="1">
+    <test name="Login test with parameters">
+        <classes>
+            <class name="com.VyTrack.tests.components.login_navigation.loginTests">
+                <methods>
+                    <include name="loginWithDataProvider"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
